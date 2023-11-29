@@ -6,7 +6,7 @@ from data.positions import Position
 @allure.tag("web")
 @allure.label("owner", "kirill_r")
 @allure.feature("Cart")
-def test_add_to_cart():
+def test_delete_from_cart():
     main_page = MainPage()
 
     position = Position(name='Black and white')
