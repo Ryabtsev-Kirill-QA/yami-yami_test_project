@@ -14,7 +14,7 @@ def test_add_to_cart():
     with allure.step("Open the main page"):
         main_page.open()
 
-    with allure.step("Fill address and coose position in menu"):
+    with allure.step("Fill address and choose position in menu"):
         main_page.go_to_address_form()
         main_page.choose_city('Санкт-Петербург')
         main_page.fill_street('Дворцовая площадь, д. 2')
